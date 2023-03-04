@@ -1,1 +1,1 @@
-# PIR_Ball_Balancing
+# Development of a ball balancing system
