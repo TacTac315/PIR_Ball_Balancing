@@ -1,2 +1,0 @@
-  Controle_servo.c
-
