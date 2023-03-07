@@ -1,0 +1,4 @@
+LIBRARY Ball_Detection_sfun.mexw64
+EXPORTS
+mexFunction
+mexfilerequiredapiversion
