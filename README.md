@@ -1,5 +1,7 @@
 
 # Development of a ball balancing system 
+
+See [User manual](User_manual.pdf)
 ## Matlab extension required
 
  - **Simulink Support Package for Arduino Hardware** : https://fr.mathworks.com/matlabcentral/fileexchange/40312-simulink-support-package-for-arduino-hardware
