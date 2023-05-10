@@ -1,0 +1,44 @@
+ert_main.o: \
+ C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/ert_main.c \
+ C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/ServoController.h \
+ C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/rtwtypes.h \
+ C:/PROGRA~1/MATLAB/R2020a/simulink/include/rtw_continuous.h \
+ C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/rtwtypes.h \
+ C:/PROGRA~1/MATLAB/R2020a/simulink/include/rtw_solver.h \
+ C:/PROGRA~1/MATLAB/R2020a/simulink/include/rtw_continuous.h \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/SUPPOR~1/ARDUIN~2/include/MW_ServoWriteRead.h \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/SUPPOR~1/ARDUIN~2/include/MW_SerialRead.h \
+ C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/ServoController_types.h \
+ C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/MW_target_hardware_resources.h \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/SUPPOR~1/ARDUIN~1/SCHEDU~1/include/arduinoAVRScheduler.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2020a/3P.instrset/arduinoide.instrset/hardware/arduino/avr/cores/arduino/Arduino.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2020a/3P.instrset/arduinoide.instrset/hardware/arduino/avr/cores/arduino/binary.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2020a/3P.instrset/arduinoide.instrset/hardware/arduino/avr/variants/standard/pins_arduino.h
+
+C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/ServoController.h:
+
+C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/rtwtypes.h:
+
+C:/PROGRA~1/MATLAB/R2020a/simulink/include/rtw_continuous.h:
+
+C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/rtwtypes.h:
+
+C:/PROGRA~1/MATLAB/R2020a/simulink/include/rtw_solver.h:
+
+C:/PROGRA~1/MATLAB/R2020a/simulink/include/rtw_continuous.h:
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/SUPPOR~1/ARDUIN~2/include/MW_ServoWriteRead.h:
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/SUPPOR~1/ARDUIN~2/include/MW_SerialRead.h:
+
+C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/ServoController_types.h:
+
+C:/Users/vince/OneDrive/PIR_development/PIR_Ball_Balancing/ServoController_ert_rtw/MW_target_hardware_resources.h:
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2020a/toolbox/target/SUPPOR~1/ARDUIN~1/SCHEDU~1/include/arduinoAVRScheduler.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2020a/3P.instrset/arduinoide.instrset/hardware/arduino/avr/cores/arduino/Arduino.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2020a/3P.instrset/arduinoide.instrset/hardware/arduino/avr/cores/arduino/binary.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2020a/3P.instrset/arduinoide.instrset/hardware/arduino/avr/variants/standard/pins_arduino.h:
