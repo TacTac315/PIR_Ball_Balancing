@@ -39,13 +39,13 @@ static emlrtMCInfo c2_emlrtMCI = { 1,  /* lineNo */
   "C:\\Program Files\\MATLAB\\R2020a\\toolbox\\shared\\system\\coder\\+matlab\\+system\\+coder\\SystemCore.p"/* pName */
 };
 
-static emlrtMCInfo c2_b_emlrtMCI = { 28,/* lineNo */
+static emlrtMCInfo c2_b_emlrtMCI = { 26,/* lineNo */
   27,                                  /* colNo */
   "unaryMinOrMax",                     /* fName */
   "C:\\Program Files\\MATLAB\\R2020a\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
 };
 
-static emlrtMCInfo c2_c_emlrtMCI = { 97,/* lineNo */
+static emlrtMCInfo c2_c_emlrtMCI = { 95,/* lineNo */
   27,                                  /* colNo */
   "unaryMinOrMax",                     /* fName */
   "C:\\Program Files\\MATLAB\\R2020a\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
@@ -158,13 +158,13 @@ static emlrtRSInfo c2_s_emlrtRSI = { 27,/* lineNo */
   "C:\\Program Files\\MATLAB\\R2020a\\toolbox\\eml\\eml\\+coder\\+internal\\indexShapeCheck.m"/* pathName */
 };
 
-static emlrtRTEInfo c2_emlrtRTEI = { 413,/* lineNo */
+static emlrtRTEInfo c2_emlrtRTEI = { 392,/* lineNo */
   9,                                   /* colNo */
   "unaryMinOrMax",                     /* fName */
   "C:\\Program Files\\MATLAB\\R2020a\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
 };
 
-static emlrtRTEInfo c2_b_emlrtRTEI = { 489,/* lineNo */
+static emlrtRTEInfo c2_b_emlrtRTEI = { 468,/* lineNo */
   5,                                   /* colNo */
   "unaryMinOrMax",                     /* fName */
   "C:\\Program Files\\MATLAB\\R2020a\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
@@ -1866,10 +1866,10 @@ static void init_simulink_io_address(SFc2_Ball_Detection_and_PIDInstanceStruct
 /* SFunction Glue Code */
 void sf_c2_Ball_Detection_and_PID_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(1054954150U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(910893336U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(3523211640U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(3457308395U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3487186407U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(3444261106U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(3683658203U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(1411054139U);
 }
 
 mxArray *sf_c2_Ball_Detection_and_PID_third_party_uses_info(void)
@@ -1925,7 +1925,7 @@ static const mxArray *sf_get_sim_state_info_c2_Ball_Detection_and_PID(void)
 
 static const char* sf_get_instance_specialization(void)
 {
-  return "sPtKLBcmMqBc2mQwyQJojGD";
+  return "sd7x6C5VZJ9D4WdltSiltnF";
 }
 
 static void sf_opaque_initialize_c2_Ball_Detection_and_PID(void
@@ -2034,28 +2034,28 @@ const char* sf_c2_Ball_Detection_and_PID_get_post_codegen_info(void)
 {
   int i;
   const char* encStrCodegen [19] = {
-    "eNrtV81u20YQphwpSIA6MNACLYoADepDeyqCAAV6cmyJUspEqpXKSdOTsF6OxK2Wu8z+yFbPPeX",
-    "aQ56nD9B7H6AP0GPRU2cpWlYpkrIjNzHQEqDpJb/5dr6Z2dmVVwt6Hl538P7zfc+7ic9beG9586",
-    "uRjWtL9/x93fssGz9EI2HjPlEk1l7lJUgM34KW3BomRSBGshDGxAgUCIrYRCpTxqZZbDkTk44V1",
-    "PHp7yJGo0EkLQ+baEvCQ8FnyJZY00cenymgpgMQmkhJO446nIwXHitz0oqATrSNqyRoMAObOLd0",
-    "z3LDEg7tU6CB0Iagx/rct4EhBlrmtFSmU6oHZ0AZJ5wRUag2InoACQbYwLMkxL+H1qCoPIxGRJk",
-    "mRGQKussmKacUkOdkGj8cM0GMVIzwdsxbznDVtz5Hf3oyBF4REPStqYBMEsmEKc//oINK24Icc/",
-    "Dh2I7L2Qbw0rrkP2dwAqo0bqOWnIIiYzgUpZOmAWmfptlaVMkqzLAYnhN1QDF/GsLS6sXK0QOCe",
-    "YIjtCiDQSoy0EeKTTG8pWw2DlxlrlsyNp4nW6+DpWztKVRlYcHWoaJFONelsCOZdGEKPGX1iSHV",
-    "sDlrMU5rFh5JDLAr7/LVYAXDxGewlhQhK0zXNAdI+8432Fj+iaRWGxm3sHj9bnf18yosEAbUiFA",
-    "o6gKKMA0YszS85Wwh0y73CESvTOpeEXheIetQnh5Z4Z9INcGYVDSRcwkuo6XAWI8xl7gSnmlcNF",
-    "Uwl8t1OEpoBKFrMIxDD5cNYgtiol1rO8B1N2Vm5oOmiiVFWXX7z33vfP957wL7z5ld/vn5Ek+tg",
-    "Mdbeubnvb1VPe8W/lfL7PaX7LZz89Rzdg63g/cvex/Xf/rr959fz7749dXul3ubzP9R43L79Z1s",
-    "fPesMS4KfbpSXw779ZJf9QL+D5f4d7Kx7psn3SaNey+b9EH89GT29LH84ZGf8kX1an8bOX/P3t9",
-    "zHXqWpP1WKxqE2UHCjYmdb6+O/6slf2+uicft7P38+uPhZvZ39/P2RfG6lYuXGx/jij3A3XO5ft",
-    "+djg8upKOR09HIdLzIrcN3p+PTjXR8f2U6dvY3s1/tM0U6tnM6ttPzUSBwYyGc/ZieZ65Gz70r0",
-    "fNijZ7dnJ7dVM+QuF0EhvTBsIlJGvpgID3PDYkIh/3AX9kH3rSvXtbO+9/uWtjV/oP6LnJOelO7",
-    "Gxuey96W3ab6LntevG74+xX91Mvhd66xjk3P8f82/jfvcuftT7Lx3uIncCtiPCz4NZR97gIZFX1",
-    "9C/r+Bk9Nr0M=",
+    "eNrtV01v20YQpRwrSII4ENAA6SFAjAZocwyKtkkPTWyTEspAro3QcdIChbAmR+JCy112P2g79/6",
+    "XXnvsOX8i9/yBHnvsLEXLKkVSduQmBloCNL3km7fzZmZnV07L33bwuoX3X584zlV8XsN7xZlc7W",
+    "Lcmrkn71edL4rxUzTiJtklkiTKabw4SeA5KMGMpoL7fCgqYZQPQQIPEZsKqevYFE0Mo3zcMzy0f",
+    "OplTMM4iIVh0RbakmiHs2NkS43eRR6PSgh1DyDSsRRmFPcYGU09lvrQjSEcK5M0SVCgA5Nat9S2",
+    "YZqmDLpHEPpcaYIeq1PfAk00uPqoVqZVqoIToEhSRgmvVBsTFUCKAdbwIo3w747RKKoMC2Mi9Rb",
+    "EJAPVp+OcU3Aoc1KFHw4oJ1pISlg3Ya41nPdtl6E/2yIC1hAQ9G1LAhmngnJdn/+gh0q7nBww8O",
+    "DAjOrZAvjF2OTvUzgEWRu3oSsykGQEO7x20jwg3aM8W9MqmYdpmsA+kZsh5k9BVFu9WDkqIJgn2",
+    "EOLOhjkIn21J2mG4a1lM4lvK3PRkjHJJNlqESxn62bQlIUpWy/kLmFM1cL2RNqHDFjO6hFNmmET",
+    "1mqcUjTaExhgW971q8FwiokvYK7gEa1MV1YC5H3nB2ws/0SGRmmRuFi8Xr8//3ke5nMNckhCqOo",
+    "CklAFGLM8vPVsEVU29whEr3TuXhV4UiGLUI4aGu4dCjnGmDQ0kVMJNqO1wESNMJe4El4oXDRNMJ",
+    "vLRbiQhDFEtsFQBtu4bBBbERNlW9smrruM6mMPVChpWpVVu/88dE73n5tn2H9O7MrPBzM8rQoeZ",
+    "+ZZnvf6SvO8K/hfq7DbmLFbK82zWrKzuA7ev73L1m+8gTe/9jt//P7dz58vM/+n7fPt17eK8d2T",
+    "xjgt9Gyuviz2+xm/Viv478zwd4qxih4dfeN+vf/Ts2+9r15GTAeUad7L+eLVZn/bJX9P3q/bDn2",
+    "c5v1WydCPioOEHRMz2V4t/+MZf68uiMf14v3k+vPpcvZ3N8r2VfG6VoqXHR/git3E3XO2fj+ejt",
+    "tn0tEu6WgXOl6V1uHH0/HZUjp+vDAdnY3l7Of7TJWOtZKOtfx85HPcWAijr/PzzMXoWb8QPa8W6",
+    "Llf0nM/1zMgdheBQfjlYAuTNPBAQ36eGxAeDXZ9b24feN++el4753+7S2HX+g/qO8s56X3trix5",
+    "LvtQdsvqO+958bLhHzb0U6eE71xiHcue4/9t/FvnfOfte8X4yfQnsBtTFlX8Gio+94EMq75+AH1",
+    "/A+mGrs8=",
     ""
   };
 
-  static char newstr [1289] = "";
+  static char newstr [1285] = "";
   newstr[0] = '\0';
   for (i = 0; i < 19; i++) {
     strcat(newstr, encStrCodegen[i]);
@@ -2068,10 +2068,10 @@ static void mdlSetWorkWidths_c2_Ball_Detection_and_PID(SimStruct *S)
 {
   const char* newstr = sf_c2_Ball_Detection_and_PID_get_post_codegen_info();
   sf_set_work_widths(S, newstr);
-  ssSetChecksum0(S,(68828865U));
-  ssSetChecksum1(S,(2481257092U));
-  ssSetChecksum2(S,(3442375063U));
-  ssSetChecksum3(S,(1043669898U));
+  ssSetChecksum0(S,(544662440U));
+  ssSetChecksum1(S,(3278226186U));
+  ssSetChecksum2(S,(3104853125U));
+  ssSetChecksum3(S,(643644849U));
 }
 
 static void mdlRTW_c2_Ball_Detection_and_PID(SimStruct *S)

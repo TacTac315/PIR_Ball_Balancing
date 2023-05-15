@@ -1,4 +1,4 @@
-%Ce programme à pour fonction de : 
+%Ce programme a pour fonction de : 
 % - Charger le fichier de correspondance AnglePlateau->AngleServos généré
 %   grâce au programme Python de Johan Link
 % - Convertir les données en Lookup Table afin de les rendres exploitables
