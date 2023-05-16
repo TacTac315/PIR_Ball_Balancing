@@ -9,14 +9,14 @@ Servo servo2;
 Servo servo3;
 // Create a union to easily convert float to byte
 typedef union {
-  int number;
+  float number;
   uint8_t bytes[4];
-} INTUNION_t;
+} FLOATUNION_t;
 
 // Create the variable you want to send
-INTUNION_t S1;
-INTUNION_t S2;
-INTUNION_t S3;
+FLOATUNION_t S1;
+FLOATUNION_t S2;
+FLOATUNION_t S3;
 
 void setup() {
   // initialize serial, use the same boudrate in the Simulink Config block
@@ -26,22 +26,22 @@ void setup() {
   servo3.attach(5);
 }
 void loop() {
-  S1.number = getInt();
-  S2.number = getInt();
-  S3.number = getInt();
-  servo1.write(S1.number);
-  servo2.write(S2.number);
-  servo3.write(S3.number);
+  S1.number = getFloat();
+  S2.number = getFloat();
+  S3.number = getFloat();
+  servo1.write((int)S1.number);
+  servo2.write((int)S2.number);
+  servo3.write((int)S3.number);
   delay(SIMULINK_DELAY);
 }
 
 
-int getInt(){
+int getFloat(){
   int cont = 0;
-  INTUNION_t i;
+  FLOATUNION_t f;
   while (cont < 4 ){
-    i.bytes[cont] = Serial.read() ;
-    cont = cont +1;
+    f.bytes[cont] = Serial.read() ;
+    cont++;  
   }
-  return i.number;
+  return f.number;
 }
