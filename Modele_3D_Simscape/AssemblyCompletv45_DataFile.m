@@ -445,6 +445,7 @@ smiData.RevoluteJoint(6).Rz.Pos = 0.0;
 smiData.RevoluteJoint(6).ID = "";
 
 smiData.RevoluteJoint(1).Rz.Pos = -84.463089657628316;  % deg
+%smiData.RevoluteJoint(1).Rz.Pos = 0.0;
 smiData.RevoluteJoint(1).ID = "[AssemblyBase:1:-:bras_1:1]";
 
 smiData.RevoluteJoint(2).Rz.Pos = -161.17649020568473;  % deg

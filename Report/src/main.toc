@@ -1,0 +1,41 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Materials and Methods}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Hardware}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Arduino}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}External Power Supply}{2}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Servos}{2}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Serial communication}{3}{subsubsection.2.1.4}%
+\contentsline {paragraph}{MATLAB Simulink side.}{3}{section*.2}%
+\contentsline {paragraph}{Arduino Uno side.}{3}{section*.3}%
+\contentsline {subsection}{\numberline {2.2}Ball detection}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Image acquisition}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Description of our image recognition system}{4}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}The Blob Analysis function}{4}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}User interface}{5}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}System modeling}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Mathematics modeling}{5}{subsubsection.2.3.1}%
+\contentsline {paragraph}{Illustrative graph}{5}{section*.4}%
+\contentsline {paragraph}{Mathematical modeling}{5}{section*.5}%
+\contentsline {paragraph}{Linearization}{6}{section*.6}%
+\contentsline {subsubsection}{\numberline {2.3.2}Digital twin modeling}{6}{subsubsection.2.3.2}%
+\contentsline {paragraph}{3D Assembly.}{6}{section*.7}%
+\contentsline {paragraph}{Simulink model.}{7}{section*.8}%
+\contentsline {subsection}{\numberline {2.4}Controller}{7}{subsection.2.4}%
+\contentsline {paragraph}{PID Controller.}{7}{section*.9}%
+\contentsline {paragraph}{Controller implementation.}{8}{section*.10}%
+\contentsline {section}{\numberline {3}Results}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Hardware}{9}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Arduino Uno and External Power Supply}{9}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Servo control}{9}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Serial Communication}{9}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Ball detection}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Simscape model}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Controller}{11}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Discussion}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Hardware operation}{13}{subsection.4.1}%
+\contentsline {paragraph}{External power supply.}{13}{section*.11}%
+\contentsline {paragraph}{Servo.}{13}{section*.12}%
+\contentsline {paragraph}{Serial communication.}{13}{section*.13}%
+\contentsline {subsection}{\numberline {4.2}Ball detection algorithm}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Digital twin model}{14}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Conclusion}{15}{section.5}%

@@ -1,0 +1,25 @@
+\section{Discussion}
+
+\subsection{Hardware operation}
+The results obtained from our experimental hardware setup highlight both the capabilities and limitations of using an Arduino Uno, Tower Pro MG995R servos, and a serial communication protocol to control a 3dof Stewart platform.
+\newline
+\paragraph{External power supply.}
+Despite the inherent power limitations of the Arduino Uno, our setup demonstrated that it could serve as a highly functional control hub when coupled with an external power supply. This finding underscores the Arduino's flexibility and adaptability in complex control systems that demand more power than it can natively provide.
+\newline
+\paragraph{Servo.}
+Our servos, while demonstrating their precision and accuracy in positional control, encountered issues related to response speed. A noticeable delay of approximately a second was observed in their reaction time, which had an adverse impact on the real-time control of the Stewart platform. Given the Tower Pro MG995R servos' known specifications and previous performances, this delay was unexpected and, thus, suggests an area requiring further investigation.
+\newline
+\paragraph{Serial communication.}
+Serial communication proved to be a reliable medium for data transmission between the computer running the MATLAB Simulink model and the Arduino Uno. However, we suspect the communication between the Arduino and the servos might be implicated in the observed servo response delay. While the input signal frequency at the communication block was confirmed as correct, the persistent response delay indicates a potential issue in the communication pathway to the servos.
+\newline\newline
+Taken together, these results suggest that while our current hardware configuration is a promising starting point for controlling a 3dof Stewart platform, improvements are necessary for better real-time control and responsiveness. Specifically, resolving the servo response delay is crucial for enhancing the system's overall performance. This challenge provides a direction for future work, where more advanced control strategies and possibly different hardware configurations should be explored to increase the platform's accuracy and robustness. In doing so, the findings from this research will serve as a foundation for more sophisticated Stewart platform control systems.
+
+\subsection{Ball detection algorithm}\label{Ball discussion}
+As seen in \ref{Ball detection}, the ball detection algorithm has given good results under various brightness conditions. The user interface implemented for the project is really helpful, providing real-time display of the
+ball’s position. Throughout its utilization, no noticeable lag was detected, ensuring a real-time regulation of the ball’s position.\newline
+As said in \ref{Ball detection}, we encountered a minor drawback where the wood support occasionally got misidentified as the ball. This issue can be resolved by repainting the wood surface in white or by using a green ball, which would provide a distinct color contrast for accurate detection and prevent false identification.\newline
+Overall, the ball detection algorithm proved to be reliable and efficient, exhibiting strong performance in different conditions. With the suggested remedies for the detection issue, the algorithm can further enhance its accuracy and usability.
+
+\subsection{Digital twin model}
+Due to time constraints, only the plate was modeled in the project. As observed in \ref{Simscape model}, the plate demonstrates a perfect response to the input angle. However, in order to make the model more comprehensive, incorporating the ball into the Simulink/Simscape model would be a valuable addition. One possible approach could be to consider the ball as a separate rigid body with its own dynamics and interaction with the plate. This would involve defining the ball's mass, size, and properties such as friction and elasticity. Additionally, the forces and torques exerted on the ball by the plate could be modeled based on their contact and interaction. By integrating the ball into the existing model, a more accurate representation of the entire system could be achieved, allowing for a more comprehensive analysis and control design.
+

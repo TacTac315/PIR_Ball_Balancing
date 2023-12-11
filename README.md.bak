@@ -1,9 +1,6 @@
 
 # Ball Balancing System Development
 
-## Required Matlab Version
-This project was developed on Matlab R2020a.
-
 ## Required Matlab Extensions
 
 1. **MATLAB Support Package for USB Webcams**
@@ -23,9 +20,3 @@ Before launching the main program **Ball_Detection_and_PID.slx**, follow these s
 2. Set up the camera appropriately.
 3. Set up the COM port.
 4. Run **dataToLookupTable.m**.
-
-## Digital Twin
-
-An incomplete digital twin model is present in the **Modele_3D_Simscape** folder. This model was originally created with Matlab R2022a (**AssemblyCompletv45.slx**), and a version converted for Matlab R2020a is also available (**AssemblyCompletv45_2020a.slx**). 
-
-Before running the model, execute **AssemblyCompletv45_DataFile.m**.
